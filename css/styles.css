@@ -1,0 +1,381 @@
+*{
+  width:100vw;
+  margin:auto;
+  padding:0px;
+
+  /* border: 2px green solid; */
+
+}
+element.style{
+  display: block;
+}
+
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+
+}
+/* this is here momentarily to remove white space on right side of page */
+h2, h1, h5, h3,h4,h6,hr, .row, .col-md-6, .col-xs-12{
+  width:auto;
+}
+nav{
+  height:10vh;
+  display:inline-block!important;
+  font-size:14px;
+  position: fixed;
+  z-index: 4;
+}
+
+
+
+
+
+
+nav ul{
+  margin:1%;
+  margin-bottom:5%;
+  margin-top:1%;
+  width: auto;
+
+
+
+}
+
+
+nav li{
+  display:inline;
+  margin:3%;
+
+}
+
+nav li a{
+  color:white;
+  text-decoration: none;
+  z-index: 5;
+
+}
+
+nav li a:hover{
+  color:white;
+  padding-bottom:.5%;
+  border-bottom:2px solid white;
+  text-decoration: none;
+}
+
+nav li a:visited{
+  color:white;
+  padding-bottom:.5%;
+  border-bottom:2px solid white;
+  text-decoration: none;
+  position: fixed;
+}
+.logo{
+  font-size:20px;
+
+}
+.navitems{
+  font-size:14px;
+}
+header{
+  background-color:#006989;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-bottom:-4px;
+}
+
+.introduction{
+  color:white;
+
+
+
+}
+.introduction h3{
+  color:white;
+  width:70%;
+  padding-top:20%;
+  font-size: 25px;
+  padding-bottom:9%;
+  margin-right:auto;
+  margin-left:auto;
+
+}
+
+.introduction span{
+  color:#EA94AE;
+}
+
+#about_me{
+  background-image:url('https://images.pexels.com/photos/509922/pexels-photo-509922.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-attachment:fixed;
+  height:70vh;
+  margin-top:0px;
+  padding:4%;
+  background-position:center;
+  font-size:120%;
+
+}#about_me .box{
+  background:grey;
+  height:40%;
+  width:90%;
+  margin-top:8%;
+
+}
+ .box button{
+  width:20%;
+  padding:1%;
+  margin:5.5%;
+  text-transform: uppercase;
+  margin-top:4%;
+
+}
+#experiencesection,#educationsection{
+  padding:3%;
+  width:auto;
+  display:none;
+}
+#mesection{
+  padding:3%;
+  width:auto;
+}
+.box .details {
+  background:white;
+  border:1px solid black;
+  width:40%;
+  height:200%;
+  padding:3%;
+  left: 0%;
+  top: -150%;
+  overflow:hidden;
+  position: relative;
+
+
+
+
+}
+#about_me h5{
+  width:50%;
+  margin-left:auto;
+  margin-right:auto;
+  padding:2%;
+}
+#about_me h1{
+  width:50%;
+  margin-left:auto;
+  margin-right:auto;
+}
+ion-icon {
+    display: inline-block;
+    font-size: 1200%;
+    width: auto;
+    display: inline-block;
+    margin:0;
+}
+#projects{
+  width:70vw;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 5%;
+  margin-top:5%;
+  font-size:12px;
+}
+#projects img{
+  padding:0;
+  margin:2%;
+}
+/* .imagescol col-md-6{
+  margin: -15px;
+} */
+.overlay{
+position: absolute;
+background:black;
+width:98%;
+height:100%;
+left:4%;
+bottom:0%;
+opacity: 0;
+transition: 1s ease;
+
+}
+img{
+  -webkit-box-shadow: 6px 2px 3px 0px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+ -moz-box-shadow:    6px 2px 3px 0px #ccc;  /* Firefox 3.5 - 3.6 */
+ box-shadow:         6px 2px 3px 0px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+#downtime:hover img,#bookclub:hover img,#snaps:hover img,#commune:hover img{
+opacity: .2
+}
+#downtime:hover .overlay,#commune:hover .overlay,#snaps:hover .overlay,#bookclub:hover .overlay{
+opacity: .9
+}
+#downtime a,#bookclub a,#snaps a,#commune a{
+  color:white;
+  position:relative;
+  top:35%;
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-decoration: none;
+
+}
+
+#contact_me{
+  background-color:black;
+  color:white;
+  text-align:center;
+  padding: 3%;
+  position: relative;
+  bottom:0;
+  left:0;
+
+}
+#contact_me p{
+  display:inline-block;
+  margin:2%;
+  width: auto;
+}
+#contact_me h3{
+  width:auto;
+}
+.articles h5{
+  display:inline-block;
+  margin-left: auto;
+  margin-right:auto;
+
+}
+.articles{
+ font-size: 14px;
+
+}
+.articles a{
+  font-size: 14px;
+  color:white;
+  text-transform: uppercase;
+}
+.articles h3{
+  font-weight: bolder;
+  display: inline-block;
+  margin:2%;
+  margin:2%;
+
+}
+.article-section{
+  background-image: url('https://images.pexels.com/photos/733852/pexels-photo-733852.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  height:100%;
+  padding:3%;
+  background-attachment: fixed;
+  background-position:bottom;
+  background-size: cover;
+  display:inline-block;
+  
+}
+
+.link a{
+  color:white;
+  position:relative;
+  top:35%;
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-decoration: none;
+}
+#contact_me a, #contact_me a:hover {
+  color:white;
+  font-size:120%;
+}
+
+
+
+
+
+@media only screen and (max-width: 480px), only screen and (max-width: 760px)
+{
+  #experiencesection, #educationsection, #mesection{
+        font-size: 7px;
+  }
+  nav{
+    height:10vh;
+    display:inline-block!important;
+    font-size:14px;
+    position: fixed;
+    z-index: 4;
+  }
+  .scroll{
+    height:10vh;
+    display:inline-block!important;
+    font-size:14px;
+    position: fixed;
+    background: yellow;
+    z-index: 4;
+
+  }
+  ion-icon{
+    display: none;
+  }
+  .introduction h3 {
+      color: white;
+      width: 70%;
+      padding-top: 16%;
+      font-size: 21px;
+      padding-bottom: 9%;
+      margin-right: auto;
+      margin-left: auto;
+  }
+  nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 67%;
+}
+header{
+  z-index: -1;
+}
+
+.box button {
+    width: 21%;
+    padding: 3%;
+    margin: 5.5%;
+    text-transform: uppercase;
+    margin-top: 6%;
+    font-size: 5px;
+}
+.box .details {
+    background: white;
+    border: 1px solid black;
+    width: 40%;
+    height: 200%;
+    padding: 3%;
+    left: 0%;
+    top: -120%;
+    position: relative;
+    font-size: 44%;
+}
+#about_me {
+
+    font-size: 91%;
+    height: auto;
+}
+#about_me .box {
+    background: white;
+    height: 40%;
+    width: 90%;
+    margin-top: 8%;
+    margin:18px;
+
+}
+#contact_me {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 42%;
+    position: absolute;
+    bottom: -1338px;
+    left: -167px;
+}
+html, body{
+  overflow-x: hidden;
+}
+}
+/*----------------------------------------------------------above are media queries----------------------------------------------------------*/
