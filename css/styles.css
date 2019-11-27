@@ -16,7 +16,7 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-    font-family: 'Montserrat', sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 
 }
 /* this is here momentarily to remove white space on right side of page */
@@ -365,15 +365,16 @@ header{
     margin:18px;
 
 }
-#contact_me {
-    background-color: black;
+/* #contact_me {
+    
     color: white;
+    font-weight:bold;
     text-align: center;
     padding: 42%;
     position: absolute;
     bottom: -1338px;
-    left: -167px;
-}
+    left: -167px; */
+/* } */
 html, body{
   overflow-x: hidden;
 }
